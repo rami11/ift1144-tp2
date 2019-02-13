@@ -1,0 +1,31 @@
+body {
+    background-color: #99BBDD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteneur {
+    width: 920px;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    width: 800px;
+    height: 108px;
+    background-image: url("../images/nuages_708.jpg");
+}
+
+header h1 {
+    color: #FFFF00;
+    padding: 8px;
+    font-size: 46px;
+}
+
+table {
+    width: 100%;
+    background-color: #FFFF00;
+    text-align: center;
+    color: #0000FF;
+    font-weight: bold;
+}
