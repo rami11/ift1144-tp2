@@ -5,7 +5,7 @@ body {
 
 #conteneur {
   width: 920px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-right: auto;
   margin-left: auto;
 }
@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-  color: #ffff00;
+  color: #ff0;
   padding: 8px;
   margin: 0px;
   font-size: 46px;
@@ -25,9 +25,9 @@ header h1 {
 
 nav table {
   width: 100%;
-  background-color: #ffff00;
+  background-color: #ff0;
   text-align: center;
-  color: #0000ff;
+  color: #00f;
   font-weight: bold;
 }
 
@@ -44,12 +44,12 @@ nav a:active {
 }
 
 main {
-  padding-bottom: 42px;
+  padding: 8px;
 }
 
 main a:active {
-  color: #ff0000;
-  background-color: #ffffff;
+  color: #f00;
+  background-color: #fff;
 }
 
 footer table {
@@ -60,4 +60,44 @@ footer table {
 
 .button {
   background-color: #d3d3d3;
+}
+
+.weather {
+  padding: 8px 24px;
+}
+
+.weather table {
+  width: 100%;
+  margin: auto;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.weather table th {
+  background-color: #33cccc;
+  color: #fff;
+  font-weight: normal;
+  border-right: 1px solid #fff;
+}
+
+.weather table td {
+  text-align: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+table .status {
+  text-align: center;
+}
+
+.cool {
+  color: #00f;
+}
+
+.danger {
+  color: #f00;
+}
+
+.hr-spacer {
+  margin-bottom: 8px;
 }
