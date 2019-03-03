@@ -33,18 +33,6 @@ nav table {
   color: #00f;
 }
 
-nav a:link {
-}
-
-nav a:visited {
-}
-
-nav a:hover {
-}
-
-nav a:active {
-}
-
 main {
   padding: 8px;
 }
@@ -106,10 +94,31 @@ table .status {
   margin-bottom: 8px;
 }
 
-#city-box {
-  text-align: center;
-  background-color: lightgrey;
-  color: #f00;
-  width: 210px;
-  margin: 0 32px;
+ul#city-box {
+  width: 200px;
+  background-color: #e8e0e9;
+  list-style-type: none;
+  margin-left: 32px;
+  padding-left: 64px;
 }
+
+#city-box a {
+  text-decoration: none;
+  color: #f00;
+}
+
+/* nav a:link {
+  color: #f00;
+}
+
+nav a:visited {
+  color: #f00;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+nav a:active {
+  color: #f00;
+} */
