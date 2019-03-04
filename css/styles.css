@@ -53,11 +53,11 @@ footer table {
 }
 
 .weather {
-  padding: 16px 32px;
+  padding: 16px 0;
 }
 
 .weather table {
-  width: 100%;
+  width: 90%;
   margin: auto;
   border-top: 2px solid;
   border-right: 2px solid;
@@ -76,6 +76,10 @@ footer table {
   text-align: center;
   border-right: 1px solid;
   border-bottom: 1px solid;
+}
+
+.weather table img {
+  width: 74px;
 }
 
 table .status {
