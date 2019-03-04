@@ -117,7 +117,20 @@ ul#city-box {
   padding-left: 64px;
 }
 
-#city-box a {
+#city-box a:link {
   text-decoration: none;
-  color: red;
+  color: #f00;
+}
+
+#city-box a:visited {
+  color: #f00;
+}
+
+#city-box a:hover {
+  color: darkred;
+}
+
+#city-box a:active {
+  color: #f00;
+  background-color: #fff;
 }
